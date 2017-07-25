@@ -2,160 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b873cf6-5125-4c76-ba92-b04c9549c1f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-shop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rivets.bundled.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/rivets.bundled.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/rivets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/rivets.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/_layout.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/responsive.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/screen.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/syntax.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/type.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/adapters.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/adapters/creating.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/adapters/default.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/binders.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/binders/api.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/binders/one-way.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/binders/two-way.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/components.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/computed-properties.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/formatters.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/formatters/arguments.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/formatters/one-way.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/formatters/two-way.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/functions-call.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/install.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/iteration/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/iteration/iteration.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/usage/binding.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/usage/configuring.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/_sections/usage/templates.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/guide/index.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/[attribute].md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/checked.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/class-[classname].md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/disabled.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/each-[item].md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/enabled.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/hide.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/html.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/if.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/on-[event].md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/show.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/text.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/unchecked.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/unless.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_binders/value.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/docs/reference/index.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/entypo-social/entypo-social.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/entypo-social/entypo-social.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/entypo-social/entypo-social.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/entypo-social/entypo-social.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/entypo/entypo.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/entypo/entypo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/entypo/entypo.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/entypo/entypo.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Black-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Black-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Black-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Black-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-BlackIt-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-BlackIt-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-BlackIt-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-BlackIt-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Bold-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Bold-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Bold-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Bold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-BoldIt-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-BoldIt-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-BoldIt-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-BoldIt-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Light-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Light-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Light-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-LightIt-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-LightIt-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-LightIt-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-LightIt-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Reg-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Reg-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Reg-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Reg-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-RegIt-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-RegIt-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-RegIt-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-RegIt-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Sbold-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Sbold-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Sbold-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Sbold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-SboldIt-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-SboldIt-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-SboldIt-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-SboldIt-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Thin-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Thin-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Thin-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Thin-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-ThinIt-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-ThinIt-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-ThinIt-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-ThinIt-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Xbold-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Xbold-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Xbold-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Xbold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-XboldIt-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-XboldIt-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-XboldIt-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-XboldIt-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/attendease.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/dell.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/disco.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/kin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/mikeric.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/vs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/highlight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/lib/mock.data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/rivets/binders.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/rivets/binding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/rivets/component_binding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/rivets/formatters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/rivets/functional.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/rivets/routines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/rivets/text_template_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/runner.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/adapter.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/binders.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bindings.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/export.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/formatters.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/parsers.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rivets.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/util.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/view.coffee" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/fonts/proxima-nova/ProximaNova-Light-webfont.eot" afterPath="$PROJECT_DIR$/candy-shop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rivets.iml" afterPath="$PROJECT_DIR$/.idea/rivets.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -164,13 +13,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="candy-shop.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/candy-shop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="294">
               <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
@@ -180,8 +32,8 @@
       <file leaf-file-name="candy-shop.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/candy-shop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            <state relative-caret-position="105">
+              <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -190,7 +42,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="105">
               <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding />
             </state>
@@ -227,12 +79,19 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpDebugGeneral" break_at_first_line="true" />
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="C:\xampp\php\PEAR" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -249,6 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -264,7 +124,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,6 +132,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -287,17 +147,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -325,10 +174,13 @@
       <PhpTestRunnerSettings />
       <method />
     </configuration>
-    <configuration default="true" type="XSL-FO" factoryName="XSL-FO" useTemporaryFiles="false">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -355,6 +207,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\stephan.krauss\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5b873cf6-5125-4c76-ba92-b04c9549c1f1" name="Default" comment="" />
@@ -364,37 +219,40 @@
       <updated>1500894001273</updated>
       <workItem from="1500894005782" duration="618000" />
       <workItem from="1500906559992" duration="1077000" />
+      <workItem from="1500920862413" duration="133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1695000" />
+    <option name="totallyTimeSpent" value="1828000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25578406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,45 +273,9 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1500893939830" expanded="true" signature="371:584" ph="..." />
-              <marker date="1500893939830" expanded="true" signature="505:573" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/rivets.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/rivets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/candy-shop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="294">
           <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
@@ -461,8 +283,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/candy-shop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="105">
           <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component.json" />
+    <entry file="file://$PROJECT_DIR$/dist/rivets.min.js" />
+    <entry file="file://$PROJECT_DIR$/dist/rivets.js" />
+    <entry file="file://$PROJECT_DIR$/candy-shop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-shop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -477,9 +336,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="105">
           <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding />
         </state>
