@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formular</title>
+    <script type="text/javascript" src="rivets.bundled.min.js"></script>
+</head>
+<body>
+    <form id="contact-form-view">
+        <h3>Contact Form View</h3>
+        <input type="text" placeholder="First name" rv-value="model:first_name">
+        <input type="text" placeholder="Last name" rv-value="model:last_name">
+        <textarea placeholder="Short bio" rv-live-value="model:short_bio"></textarea>
+        <input type="email" placeholder="Email address" rv-value="model:email">
+        <input type="text" placeholder="Twitter" rv-value="model:twitter">
+        <input type="text" placeholder="Github" rv-value="model:github">
+        <input type="text" placeholder="Website" rv-value="model:website">
+    </form>
+
+    <script type="text/javascript" src="form.js"></script>
+</body>
+</html>
