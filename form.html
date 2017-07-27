@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Formular</title>
+    
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="rivets.bundled.min.js"></script>
 </head>
 <body>
-    <form id="contact-form-view">
-        <h3>Contact Form View</h3>
-        <input type="text" placeholder="First name" rv-value="model:first_name">
-        <input type="text" placeholder="Last name" rv-value="model:last_name">
-        <textarea placeholder="Short bio" rv-live-value="model:short_bio"></textarea>
-        <input type="email" placeholder="Email address" rv-value="model:email">
-        <input type="text" placeholder="Twitter" rv-value="model:twitter">
-        <input type="text" placeholder="Github" rv-value="model:github">
-        <input type="text" placeholder="Website" rv-value="model:website">
-    </form>
+    <section id="auction">
+        <h3>{ auction.product.name }</h3>
+        Test: {auction.user.firstname} <br>
+        <form action="#" method="post">
+            <input type="text" name="firstname" rv-value="auction.user.firstname"> <br>
+            <textarea rv-html="auction.user.description"></textarea>
+        </form>
+    </section>
 
     <script type="text/javascript" src="form.js"></script>
 </body>
