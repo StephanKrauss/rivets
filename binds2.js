@@ -19,16 +19,28 @@ rivets.configure({
 
 });
 
-var user = {
-    'name' : 'Sahil Gupta',
+var person = {
+    'name' : 'Stephan Krauss',
     'tag' : '<span>Here is the content for paragraph</span>',
     'available' : true,
     'sendData' : false,
     'vote' : true,
     'publish' : function(){
         user.vote = false;
-        console.error(user.name);
+        console.log(user.name);
     }
 }
 
-rivets.bind($('#tejabu'), {user: user});
+// debugger;
+
+var dummy = {
+    bla: 'bla',
+    blub: 'blub'
+}
+
+rivets.bind($('#block'), {
+    user: person,
+    dummy: dummy
+});
+
+// console.error('Console');
