@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<title>Binds 2</title>
+
+<script type="text/javascript" src="rivets.bundled.min.js"></script>
+
+<body>
+        <h3>Bindung 2</h3>
+        <div id="tejabu">
+            Enter your name : <input type="text" class="user_name" rv-value="user.name" rv-on-change="user.publish">
+            <br />
+            My name : <span class="" rv-text="user.name"></span>
+            <br />
+            Paragraph1 : <span class="" rv-html="user.tag" rv-show="user.available"></span>
+            <br />
+            Paragraph2 : <span class="" rv-html="user.name" rv-unless="user.vote"></span>
+            <br />
+            <button rv-enable="user.sendData">Click Me</button>
+        </div>
+
+    <script type="text/javascript" src="binds2.js"></script>
+</body>
+</html>
