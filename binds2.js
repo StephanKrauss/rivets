@@ -20,7 +20,7 @@ rivets.configure({
 });
 
 var person = {
-    'name' : 'Stephan Krauss',
+    'name' : 'Max Mustermann',
     'tag' : '<span>Here is the content for paragraph</span>',
     'available' : true,
     'sendData' : false,
@@ -31,6 +31,11 @@ var person = {
     }
 }
 
+rivets.bind($('#block'), {
+    user: person,
+    dummy: dummy
+});
+
 // debugger;
 
 var dummy = {
@@ -38,9 +43,14 @@ var dummy = {
     blub: 'blub'
 }
 
-rivets.bind($('#block'), {
-    user: person,
-    dummy: dummy
-});
+rivets.bind($('#dummy'),dummy);
 
-// console.error('Console');
+var zaehler = {
+    zaehler: 5
+};
+
+rivets.bind($('#zaehler'), zaehler);
+
+
+
+console.info('Console');

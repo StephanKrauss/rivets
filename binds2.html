@@ -10,14 +10,29 @@
     </head>
 
     <body>
-        <h3>Bindung 2</h3>
+        <h2>Bindung 2</h2>
 
         <div id="block">
 
-            <h4>Block mit verschiedenen Bereichen</h4>
+            <h3>Blöcke mit verschiedenen Bereichen</h3>
 
-            Bla: {dummy.bla} <br>
-            Blub: {dummy.blub} <hr>
+            <div id="zaehler" rv-if="zaehler">
+                <h4>Zaehler</h4>
+
+                <span> Zaehler gefunden !!!</span>
+            </div>
+
+            <hr>
+
+            <section id="dummy">
+                <h4>eigener Block</h4>
+
+                <span rv-if="dummy.zaehler">Ja</span>
+                Bla: <span rv-text="bla"></span> <br>
+                Blub: <span rv-text="blub"></span> <br>
+            </section>
+
+            <hr>
 
             Bitte Namen eingeben : <input type="text" class="user_name" rv-value="user.name" rv-on-change="user.publish">
             <br />

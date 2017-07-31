@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Namek</title>
+
+    <script type="text/javascript" src="rivets.bundled.min.js"></script>
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<h3>Namek</h3>
+
+https://www.namekdev.net/2017/05/my-small-secret-web-weapon-to-bind-things-rivets-js/
+
+<hr>
+
+
+<div id="app">
+    <select
+            rv-value="sortBy"
+            rv-on-change="refreshFiltering"
+    >
+        <option value="">Do not sort</option>
+        <option value="name">Sort by Name</option>
+        <option value="tagCount" rv-if="selectedFilter | equals 'untagged' | not">Sort by Tag count</option>
+    </select>
+
+    <select
+            rv-value="selectedFilter"
+            rv-on-change="refreshFiltering"
+    >
+        <option value="all">Show all</option>
+        <option value="untagged">Untagged</option>
+        <option value="tagged">Tagged</option>
+    </select>
+
+    <div rv-if="filteredRepos | isEmpty">
+        No repositories found!
+    </div>
+
+    <div
+            class="repo"
+            rv-each-repo="filteredRepos"
+            rv-class-expanded="repo.isExpanded"
+    >
+        <div
+                class="repo-name"
+                rv-on-click="toggleRepo | args repo"
+        >
+            repo: { repo.author } / { repo.name }
+        </div>
+
+        <div
+                class="repo-btns"
+                rv-if="repo.isExpanded"
+        >
+      <span class="tag" rv-each-tag="repo.tags">
+        { tag }
+        <button
+                class="btn-delete-tag"
+                rv-on-click="deleteTag | args repo tag"
+        >&times;</button>
+      </span>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="namekdev.js"></script>
+
+</body>
+</html>
