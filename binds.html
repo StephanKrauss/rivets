@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formular</title>
+
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="rivets.bundled.min.js"></script>
+</head>
+<body>
+    <div id="view">
+        <div>
+            <!-- THE COMPONENT NEEDS TO BE INSIDE A SEPARATE ELEMENT OR ELSE THE P TAG BELOW GETS REMOVED -->
+            <zaehler counter-attr="modelCounter" color-attr="modelColor"/>
+        </div>
+
+        <p rv-style="modelColor.value | toColorStyle">{modelCounter.value}</p>
+    </div>
+
+    <script type="text/javascript" src="binds.js"></script>
+</body>
+</html>
