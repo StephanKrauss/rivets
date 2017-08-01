@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Each und Formatter</title>
+
+        <meta charset="utf-8">
+
+        <script type="text/javascript" src="rivets.bundled.min.js"></script>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+
+        <style type="text/css">
+            #contentWrap li {
+                width: 300px;
+                border: solid 1px blue;
+                margin: 5px;
+                padding: 5px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h3>Each und Formatter</h3>
+
+        <!-- äußere Block -->
+        <div id="contentWrap">
+            <!-- äußere Schleife -->
+            <ol rv-each-truck = "truck" rv-value="truck.id">
+                <!-- innere Schleife -->
+                <li rv-each-job = "jobs | compare truck.id" rv-value="job.id">{ job.job_number }</li>
+            </ol>
+        </div>
+
+        <script type="text/javascript" src="each.js"></script>
+    </body>
+</html>

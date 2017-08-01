@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Binds 2</title>
+
+        <meta charset="utf-8">
+
+        <script type="text/javascript" src="rivets.bundled.min.js"></script>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    </head>
+
+    <body>
+        <h2>Bindung 2</h2>
+
+        <div id="block">
+
+            <h3>Blöcke mit verschiedenen Bereichen</h3>
+
+
+
+            <hr>
+
+            <div id="zaehler" rv-if="data.steuerung.show">
+                <h4>Zähler</h4>
+                Hinweis: <span rv-text="data.hinweis.wert"></span>
+            </div>
+
+            <hr>
+
+            <section id="dummy">
+                <h4>eigener Block</h4>
+
+                Bla: <span rv-text="bla"></span> <br>
+                Blub: <span rv-text="blub"></span> <br>
+            </section>
+
+            <hr>
+
+            Bitte Namen eingeben : <input type="text" class="user_name" rv-value="data.name" rv-on-change="data.publish">
+            <br />
+            ihr Name : <span class="" rv-text="data.name"></span>
+            <br />
+            Inhalt1 : <span class="" rv-html="data.tag" rv-show="data".available"></span>
+            <br />
+            Inhalt2 : <span class="" rv-html="data.name" rv-unless="data.vote"></span>
+            <br /><br>
+
+            <button rv-enable="user.sendData">auslösen</button>
+        </div>
+
+        <script type="text/javascript" src="binds2.js"></script>
+    </body>
+</html>
