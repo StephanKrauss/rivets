@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b873cf6-5125-4c76-ba92-b04c9549c1f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/each.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/each.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binds2.html" afterPath="$PROJECT_DIR$/binds2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binds2.js" afterPath="$PROJECT_DIR$/binds2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/each.html" afterPath="$PROJECT_DIR$/each.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/each.js" afterPath="$PROJECT_DIR$/each.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +19,8 @@
       <file leaf-file-name="each.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/each.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+            <state relative-caret-position="493">
+              <caret line="29" column="101" lean-forward="true" selection-start-line="29" selection-start-column="101" selection-end-line="29" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -31,8 +29,8 @@
       <file leaf-file-name="each.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/each.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            <state relative-caret-position="578">
+              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -55,7 +53,13 @@
       <find>rv-each-product</find>
       <find>products</find>
       <find>zaehler</find>
+      <find>thing</find>
+      <find>Aufgabe</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Aufgabe</replace>
+      <replace>Aufgabe</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -250,12 +254,12 @@
       <workItem from="1501222293558" duration="2527000" />
       <workItem from="1501480708246" duration="3780000" />
       <workItem from="1501511168382" duration="1553000" />
-      <workItem from="1501568419403" duration="1611000" />
+      <workItem from="1501568419403" duration="2777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19694000" />
+    <option name="totallyTimeSpent" value="20860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -545,16 +549,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/each.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        <state relative-caret-position="493">
+          <caret line="29" column="101" lean-forward="true" selection-start-line="29" selection-start-column="101" selection-end-line="29" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/each.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        <state relative-caret-position="578">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="41" />
           <folding />
         </state>
       </provider>

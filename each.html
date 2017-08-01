@@ -9,28 +9,26 @@
         <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
 
         <style type="text/css">
-            #contentWrap select {
-                width:300px
+            #contentWrap li {
+                width: 300px;
+                border: solid 1px blue;
+                margin: 5px;
+                padding: 5px;
             }
         </style>
 
     </head>
 
     <body>
-        <h2>Each und Formatter</h2>
+        <h3>Each und Formatter</h3>
 
-        <div id="block">
-
-            <h4>Each und Formatter</h4>
-
-            <div id="contentWrap">
-                <ol rv-each-truck="truck" rv-value="truck.id">
-                    <li rv-each-job="jobs | compare truck.id" rv-value="job.id">{ job.job_number }</li>
-                </ol>
-            </div>
-           
-
-
+        <!-- äußere Block -->
+        <div id="contentWrap">
+            <!-- äußere Schleife -->
+            <ol rv-each-truck = "truck" rv-value="truck.id">
+                <!-- innere Schleife -->
+                <li rv-each-job = "jobs | compare truck.id" rv-value="job.id">{ job.job_number }</li>
+            </ol>
         </div>
 
         <script type="text/javascript" src="each.js"></script>

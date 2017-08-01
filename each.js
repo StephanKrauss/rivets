@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    // Formatierer
     rivets.formatters.compare = function (array, compare) {
 
         var tempArr = [];
@@ -10,26 +11,28 @@ $(document).ready(function() {
             }
         });
 
-        console.log(tempArr);
-
         return tempArr;
     }
 
-    window.view = rivets.bind($('#contentWrap'), {
-        truck: [{id: 1},
-            {id: 2},
+    var data = {
+            truck: [
+            {id: 1},
+            {id: 2}
         ],
-        jobs: [
-            {id: 1, job_number: 'thing1'},
-            {id: 1, job_number: 'thing2'},
-            {id: 1, job_number: 'thing3'},
-            {id: 1, job_number: 'thing4'},
-            {id: 2, job_number: 'thing5'},
-            {id: 2, job_number: 'thing6'},
-            {id: 2, job_number: 'thing7'},
-            {id: 2, job_number: 'thing8'},
+            jobs: [
+            {id: 1, job_number: 'Aufgabe 1'},
+            {id: 1, job_number: 'Aufgabe 2'},
+            {id: 1, job_number: 'Aufgabe 3'},
+            {id: 1, job_number: 'Aufgabe 4'},
+            {id: 2, job_number: 'Aufgabe 5'},
+            {id: 2, job_number: 'Aufgabe 6'},
+            {id: 2, job_number: 'Aufgabe 7'},
+            {id: 2, job_number: 'Aufgabe 8'}
         ]
-    });
+    }
+
+    // übergebene Daten
+    rivets.bind($('#contentWrap'), data);
 
 });
 
