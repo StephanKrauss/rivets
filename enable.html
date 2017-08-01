@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html>
-<title>Candy Shop</title>
+    <title>Enabe / Disable</title>
+    <meta charset="utf-8">
 
-<link rel="stylesheet" href="candy-shop.css">
-<script type="text/javascript" src="rivets.bundled.min.js"></script>
+    <link rel="stylesheet" href="candy-shop.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="rivets.bundled.min.js"></script>
 
 <body>
+    <div id="content">
+
+        <div id="testShow" rv-hide="steuerung.anzeige">
+            <h4>Show / Hide</h4>
+            aaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaa<br>
+            aaaaaaaaaaaaaaaaaa<br>
+        </div>
+
+        <div id="testEnable">
+            <h4>Button enable / disable</h4>
+            <button rv-enabled="steuerung.button">Upvote</button>
+        </div>
+
+        <section rv-unless="steuerung.esSeiDenn">
+            <h4>Unless</h4>
+            bbbbbbbbbbbbbbb<br>
+            bbbbbbbbbbbbbbb<br>
+            bbbbbbbbbbbbbbb<br>
+        </section>
+
+        <h4> checked </h4>
+        checked: <input type="checkbox" rv-checked="steuerung.checked"> <br>
+        unchecked: <input type="checkbox" rv-unchecked="steuerung.checked">
+
+
+    </div>
 
 
     <script type="text/javascript" src="enable.js"></script>

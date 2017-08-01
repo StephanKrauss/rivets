@@ -1,3 +1,15 @@
-/**
- * Created by User on 01.08.2017.
- */
+var data = {
+  steuerung: {
+      anzeige: false,
+      button: false,
+      esSeiDenn: true,
+      checked: false
+  }
+};
+
+$(document).ready(
+    function(){
+        rivets.bind($('#content'), data);
+    }
+);
+
