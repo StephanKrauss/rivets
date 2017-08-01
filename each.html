@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Each und Formatter</title>
+
+        <meta charset="utf-8">
+
+        <script type="text/javascript" src="rivets.bundled.min.js"></script>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+
+        <style type="text/css">
+            #contentWrap select {
+                width:300px
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h2>Each und Formatter</h2>
+
+        <div id="block">
+
+            <h4>Each und Formatter</h4>
+
+            <div id="contentWrap">
+                <ol rv-each-truck="truck" rv-value="truck.id">
+                    <li rv-each-job="jobs | compare truck.id" rv-value="job.id">{ job.job_number }</li>
+                </ol>
+            </div>
+           
+
+
+        </div>
+
+        <script type="text/javascript" src="each.js"></script>
+    </body>
+</html>

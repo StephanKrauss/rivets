@@ -16,10 +16,13 @@
 
             <h3>Blöcke mit verschiedenen Bereichen</h3>
 
-            <div id="zaehler" rv-if="zaehler">
-                <h4>Zaehler</h4>
 
-                <span> Zaehler gefunden !!!</span>
+
+            <hr>
+
+            <div id="zaehler" rv-if="data.steuerung.show">
+                <h4>Zähler</h4>
+                Hinweis: <span rv-text="data.hinweis.wert"></span>
             </div>
 
             <hr>
@@ -27,20 +30,19 @@
             <section id="dummy">
                 <h4>eigener Block</h4>
 
-                <span rv-if="dummy.zaehler">Ja</span>
                 Bla: <span rv-text="bla"></span> <br>
                 Blub: <span rv-text="blub"></span> <br>
             </section>
 
             <hr>
 
-            Bitte Namen eingeben : <input type="text" class="user_name" rv-value="user.name" rv-on-change="user.publish">
+            Bitte Namen eingeben : <input type="text" class="user_name" rv-value="data.name" rv-on-change="data.publish">
             <br />
-            ihr Name : <span class="" rv-text="user.name"></span>
+            ihr Name : <span class="" rv-text="data.name"></span>
             <br />
-            Inhalt1 : <span class="" rv-html="user.tag" rv-show="user.available"></span>
+            Inhalt1 : <span class="" rv-html="data.tag" rv-show="data".available"></span>
             <br />
-            Inhalt2 : <span class="" rv-html="user.name" rv-unless="user.vote"></span>
+            Inhalt2 : <span class="" rv-html="data.name" rv-unless="data.vote"></span>
             <br /><br>
 
             <button rv-enable="user.sendData">auslösen</button>
