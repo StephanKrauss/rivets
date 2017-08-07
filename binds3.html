@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>einfache Bindung</title>
+
+        <meta charset="utf-8">
+
+        <script type="text/javascript" src="rivets.bundled.min.js"></script>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    </head>
+
+    <body>
+        <h2>einfache Bindung</h2>
+
+        <section id="content">
+            <h4 rv-text="data.enabled"></h4>
+
+            <input type="radio" name="enabledOrDisabled" rv-checked="data.enabled" value="enabled">Enabled</input>
+            <input type="radio" name="enabledOrDisabled" rv-checked="data.enabled" value="disabled">Disabled</input> <br>
+
+            Vorname: <input type="text" name="vorname" rv-value="data.vorname"> <br>
+
+            <button rv-color="label.color">Apply</button>
+        </section>
+
+        <script type="text/javascript" src="binds3.js"></script>
+    </body>
+</html>
