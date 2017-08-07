@@ -6,16 +6,21 @@ $(document).ready(function(){
             enabled: 'enabled',
             vorname: 'Stephan'
         },
-        functions: {
-            einfach: function()
+        controller: {
+            wechsel: function(el, model)
             {
-                console.info('einfach');
+                debugger;
+
+                console.info('wechsel');
+
+                model.data.vorname = 'Max';
             }
         }
     };
 
     rivets.bind($('#content'), {
-      data: model.data
+      data: model.data,
+      controller: model.controller
     });
 
 
