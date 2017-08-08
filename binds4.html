@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>einfache Bindung</title>
+
+        <meta charset="utf-8">
+
+        <script type="text/javascript" src="rivets.bundled.min.js"></script>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    </head>
+
+    <body>
+        <h2>einfache Bindung , Button</h2>
+
+        <section id="content">
+            <h4>wenn sich die Daten des Model ändern, ändert sich die Darstellung des Elementes in der View</h4>
+
+            Test <input type="text" name="farbe" id="farbe" rv-value="label.color"> <br>
+
+            <button rv-color="data.color" style="color: green;">Apply</button>
+        </section>
+
+        <script type="text/javascript">
+
+
+            var data = {
+                color: 'blue'
+            };
+
+            rivets.binders.color = function(el, farbe) {
+                // debugger;
+                console.info(farbe);
+
+                el.style.color = farbe;
+            }
+
+
+
+
+            rivets.bind($("#content"),{
+                data: data
+            });
+
+
+        </script>
+    </body>
+</html>
