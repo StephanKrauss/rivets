@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ein Bindung</title>
+
+        <meta charset="utf-8">
+
+        <script type="text/javascript" src="rivets.bundled.min.js"></script>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    </head>
+
+    <body>
+        <h2>doppelte Bindung</h2>
+
+        <div id="content">
+            <input name="content1" id="content1" rv-value="{data.content1}">
+        </div>
+
+
+        <script type="text/javascript">
+
+            var data = {
+                content1: 'AAAAA'
+            };
+
+            rivets.bind($("#content"),{
+                data: data
+            });
+
+        </script>
+    </body>
+</html>

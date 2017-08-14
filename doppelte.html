@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>doppelte Bindung</title>
+
+        <meta charset="utf-8">
+
+        <script type="text/javascript" src="rivets.bundled.min.js"></script>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    </head>
+
+    <body>
+        <h2>doppelte Bindung</h2>
+
+        <input id="test" type="text" rv-bla="data.name">
+
+
+        <script type="text/javascript">
+
+            $(document).ready(function(){
+
+                rivets.binders.bla($("#test"), {
+                    bind: function(el){
+                        $(el).on('focus', console.log('bind'));
+                    },
+                    unbind: function(el){
+                        $(el).on('blur', console.log('unbind'));
+                    },
+                    data: {
+                        name: 'Max'
+                    }
+                });
+
+//                var data = {
+//                    name: 'Stephan'
+//                };
+
+//                rivets.bind($("#test"),{
+//                    data: data
+//                });
+            });
+
+
+
+        </script>
+    </body>
+</html>
