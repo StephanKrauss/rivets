@@ -12,34 +12,45 @@
     <body>
         <h2>doppelte Bindung</h2>
 
-        <input id="test" type="text" rv-bla="data.name">
+        <input rv-value="data.zahl" rv-on-focus="controller.focus" rv-on-blur="controller.blur" id="zahl" type="text"> <br>
+        Ausgabe: <span id="ausgabe" rv-text="data.zahl"></span>
 
 
         <script type="text/javascript">
 
             $(document).ready(function(){
 
-                rivets.binders.bla($("#test"), {
-                    bind: function(el){
-                        $(el).on('focus', console.log('bind'));
+                var data = {
+                    zahl: 10
+                };
+
+                var controller = {
+                    focus: function(ev, scope)
+                    {
+                        console.dir(scope);
+
+                        // console.info('focus');
                     },
-                    unbind: function(el){
-                        $(el).on('blur', console.log('unbind'));
+                    blur: function(ev, scope)
+                    {
+                        console.info('blur');
+                        scope.controller.calculate(scope.data.zahl);
                     },
-                    data: {
-                        name: 'Max'
+                    calculate: function(wert){
+                        data.zahl = parseInt(wert) * 2;
                     }
+                }
+
+                rivets.bind($("#zahl"), {
+                   data: data,
+                   controller: controller
                 });
 
-//                var data = {
-//                    name: 'Stephan'
-//                };
+                rivets.bind($("#ausgabe"),{
+                    data: data
+                });
 
-//                rivets.bind($("#test"),{
-//                    data: data
-//                });
             });
-
 
 
         </script>
