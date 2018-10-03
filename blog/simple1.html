@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
     <script type="text/javascript" src="rivets.bundled.min.js"></script>
+    <script type="text/javascript" src="formatters.js"></script>
+
+
     <script type="text/javascript" src="simple1.js"></script>
     <title>simple test 1</title>
 </head>
 <body>
 
 <section id="auction">
-    <h3>{ auction.product.name }</h3>
-    <p>Current bid: { auction.currentBid | money }</p>
+    <h3>{ product.name }</h3>
+    <p>momentanes Angebot: { product.currentBid | geld }</p>
 
-    <aside rv-if="auction.timeLeft | lt 120">
-        Hurry up! There is { auction.timeLeft | time } left.
+    <aside rv-if="product.timeLeft | lt 10">
+        Achtung nur noch { product.timeLeft } Stunden verbleibend.
     </aside>
 </section>
 
