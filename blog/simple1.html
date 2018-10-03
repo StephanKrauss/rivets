@@ -12,15 +12,15 @@
 </head>
 <body>
 
-<section id="auction">
-    <h3>{ product.name }</h3>
-    <p>momentanes Angebot: { product.currentBid | geld }</p>
+<div id="mySubtemplate">
+    Name: <input type="text" rv-value="name" /><br>
 
-    <aside rv-if="product.timeLeft | lt 10">
-        Achtung nur noch { product.timeLeft } Stunden verbleibend.
-    </aside>
-</section>
+    Vorname: <input type="text" rv-value="firstname" /><br>
 
+    Telefon: <input type="text" rv-value="phone" /><br>
+
+    Geburtstag: <input type="text" rv-value="birthday" /><br>
+</div>
 
 
 </body>
