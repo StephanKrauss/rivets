@@ -19,7 +19,19 @@
 
     Telefon: <input type="text" rv-value="phone" /><br>
 
-    Geburtstag: <input type="text" rv-value="birthday" /><br>
+    Geburtstag1: <input type="text" rv-value="birthday" /><br>
+    {birthday | geburtstag}
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Anzahl</th>
+        </tr>
+        <tr rv-each-todo="todo">
+            <td>{todo.name}</td>
+            <td>{todo.alter}</td>
+        </tr>
+    </table>
 </div>
 
 
